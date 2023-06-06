@@ -1,0 +1,4 @@
+﻿  alien.cpp
+C:\Users\User\source\repos\Alien\Alien\alien.cpp(25,10): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\User\source\repos\Alien\Alien\alien.cpp(51,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Alien.vcxproj -> C:\Users\User\source\repos\Alien\x64\Debug\Alien.exe
