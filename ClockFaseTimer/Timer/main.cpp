@@ -28,12 +28,7 @@ int main() {
         m1 = min / 10;
         m2 = min % 10;
         s1 = sec / 10;
-        if (sec == 0) {
-            s2 = 0;
-        }
-        else {
-            s2 = sec % 10;
-        }
+        s2 = sec % 10;
        
         cout << "\n\n";
         for (int i = 0; i < 9; i++) {
