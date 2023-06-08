@@ -1,6 +1,7 @@
 #include<iostream>
 #include<Windows.h>
 #include<string>
+#include<chrono>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ int main() {
         cin >> min;
     cout << "Now seconds:";
         cin >> sec;
+    //auto start = chrono::steady_clock::now();
     while (true) {
         system("cls");
         
@@ -42,9 +44,12 @@ int main() {
             row++;
         }
         sec--;
-        Sleep(1000);
-        
+        Sleep(915);   
     }
+
+    //auto end  = chrono::steady_clock::now();
+    //double time = double(chrono::duration_cast<chrono::nanoseconds>(end - start).count());
+    //cout << "Time:" << time / 1e9 << '\n';
     return 0;
 }
     string GetNumPiece(int row, int num) {
